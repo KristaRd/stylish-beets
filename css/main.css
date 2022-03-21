@@ -1,4 +1,82 @@
 html {
-  font: bold 1.125rem/normal PT Sans, sans-serif;
+  box-sizing: border-box;
+  font-family: Pt Sans, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
   background-color: #c9b5ab
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #8f2440
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+.no-number {
+  list-style: none;
+}
+
+.wiki:hover {
+  color: #3f1622;
+}
+
+.wiki {
+  color: #8f2440;
+  text-decoration: underline;
+  font-size: .8rem;
+  line-height: normal;
+}
+
+h2 {
+  color: #8f2440;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .8rem;
+}
+
+p {
+  font-weight: normal;
+}
+
+dt {
+  font-weight: normal;
+}
+
+ul {
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
 }
